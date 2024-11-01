@@ -48,7 +48,8 @@ This project implements a RESTful API for handling hotel booking orders. It prov
 
 1. `name`: Must only contain English characters and have each first letter capitalized
 2. `price`: Must be a number less than 2000
-3. `currency`: Must be either **TWD** or **USD**  If currency is **USD**, multiply price by 31 and change currency to **TWD**.
+3. `currency`: Must be either **TWD** or **USD**<br>
+   If currency is **USD**, multiply price by 31 and change currency to **TWD**.
 
 ### Response
 
