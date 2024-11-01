@@ -47,7 +47,7 @@ This project implements a RESTful API for handling hotel booking orders. It prov
 #### Input Validation Rules
 
 1. `name`: Must only contain English characters and have each first letter capitalized
-2. `price`: Must be a number greater than 2000
+2. `price`: Must be a number less than 2000
 3. `currency`: Must be either **TWD** or **USD**
 
 ### Response
@@ -65,7 +65,6 @@ The API will return appropriate status codes and error messages based on the val
 1. Clone the repository:
    ```
    git clone https://github.com/stevenhu19817/order-api-project.git
-   cd order-project
    ```
 
 2. Build and run the Docker containers:
